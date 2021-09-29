@@ -331,8 +331,17 @@ sidebar
     background-color: rgb(116 116 116 / 5%);
 }
 
-.table-2 tbody tr:hover{
+/* .table-2 tbody tr:hover{
     background-color: #a9c9f7;
+} */
+
+.table-2 #check,
+.table-2 #checkAll{
+    cursor: pointer;
+}
+
+.table-2 tbody .active{
+    background-color: #a9c9f7 !important;
 }
 
 .icon-edit{
@@ -354,6 +363,7 @@ sidebar
     line-height: 1.6;
     padding-left: 3px;
     padding-top: 3px;
+    transition: all ease .5s;
 }
 
 
@@ -366,7 +376,7 @@ sidebar
 .icon-trash i{
     position: absolute;
     font-size: 21px;
-    right: 67px;
+    right: 19px;
     height: 40px;
     width: 40px;
     background-color: #c53e4b;

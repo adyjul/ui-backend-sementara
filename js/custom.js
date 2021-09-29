@@ -49,28 +49,7 @@ $(document).ready(function(){
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })
+    
+              
 
-    var valueBox= [];
-    $("input").change(function(){        
-        
-
-        // if($(this).val()=="on"){
-        //     valueBox.push($(this).val())
-        // }else{
-        //     console.log("hai")
-        // }
-
-        // console.log(valueBox.length);
-        // console.log(valueBox);
-        
-        // if(valueBox.length >= 0){  
-        //     $(".icon-add").css("display","none")
-        //     $(".icon-edit").css("display","block")
-        // }else{
-        //     $(".icon-add").css("display","block")
-        //     $(".icon-edit").css("display","none")
-        // }
-    })
-            
-
-})
+})  
