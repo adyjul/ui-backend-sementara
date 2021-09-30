@@ -15,7 +15,7 @@
 	
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	    <!--fontawesome-->
-    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 		
 		 <link rel="stylesheet" href="font/font/flaticon.css">
   </head>
@@ -28,130 +28,199 @@
    <div class="overlay"></div>
     
         <!-- Sidebar -->
-    <nav class="fixed-top align-top sidebar-overflow" id="sidebar-wrapper" role="navigation">
-       <div class="simplebar-content" style="padding: 0px; ">
-				<a class="sidebar-brand" href="index.html">
-          <span class="align-middle">Coba Backend</span>
-        </a>
-
-        <!-- Items -->
-
-		<ul class="navbar-nav align-self-stretch nav-items" style="position: absolute; left: 0px; transition: all 0.5s ease !important; width: 100% !important;">
-	        
-            <li class="nav-item">
-                <a href="./index.html" class="nav-link">
-                  <i class="nav-icon fas fa-tachometer-alt"></i>
-                  <p>
-                    Dashboard                
-                  </p>
-                </a>            
-            </li> 
-
-            <li class="nav-item ">
-                <a href="#" class="nav-link nav-sub" data-name="chart">
-                    <i class="far fa-address-card"></i>
-                  <p class="items">
-                    Chart                
-                  </p>
-                  <i class="fas fa-chevron-right"></i>
-                </a>            
-            </li>
+        <nav class="fixed-top align-top sidebar-overflow" id="sidebar-wrapper" role="navigation">
+            <div class="simplebar-content" style="padding: 0px; ">
+                     <a class="sidebar-brand" href="index.html">
+               <span class="align-middle">Coba Backend</span>
+             </a>
+     
+             <!-- Items -->
+     
+             <ul class="navbar-nav align-self-stretch nav-items" style="position: absolute; left: 0px; transition: all 0.5s ease !important; width: 100% !important;">
+                 
+                 <li class="nav-item">
+                     <a href="./index.html" class="nav-link">
+                       <i class="nav-icon fas fa-tachometer-alt"></i>
+                       <p>
+                         Dashboard                
+                       </p>
+                     </a>            
+                 </li> 
+     
+                 <li class="nav-item ">
+                     <a href="#" class="nav-link nav-sub" data-name="chart">
+                         <i class="far fa-address-card"></i>
+                       <p class="items">
+                         Chart                
+                       </p>
+                       <i class="fas fa-chevron-right"></i>
+                     </a>            
+                 </li>
+                 
+                 <li class="nav-item"  >
+                     <a href="#" class="nav-link nav-sub" data-name="card">
+                         <i class="far fa-address-card"></i>
+                       <p class="items">
+                         Card                
+                       </p>
+                       <i class="fas fa-chevron-right"></i>
+                     </a>            
+                 </li>
+     
+                 <li class="nav-item"  >
+                     <a href="#" class="nav-link nav-sub" data-name="table">
+                         <i class="far fa-address-card"></i>
+                       <p class="items">
+                         Table              
+                       </p>
+                       <i class="fas fa-chevron-right"></i>
+                     </a>            
+                 </li>
+     
+                 <li class="nav-item"  >
+                     <a href="#" class="nav-link nav-sub" data-name="items">
+                         <i class="far fa-address-card"></i>
+                       <p class="items">
+                         Items              
+                       </p>
+                       <i class="fas fa-chevron-right"></i>
+                     </a>            
+                 </li>
+     
+             </ul>
+     
+             <!-- end Items -->
+     
+             <!-- sub Item -->
+     
+             <ul class="navbar-nav align-self-stretch nav-sub-items nav-subItems-chart" style="position: absolute; left: 20rem; transition: all 0.5s ease; width: 100%;">
+                 <li class="sidebar-header">
+                     <div class="sub-item-show btn" style="padding: 0px;">
+                         <i class="fas fa-chevron-left"></i>
+                         <p>Chart</p>
+                     </div>
+                 </li>
+     
+                 <li class="nav-item">
+                     <a href="./donut-chart.html" class="nav-link">                
+                       <p>Pie Chart</p>
+                     </a>            
+                 </li> 
+     
+                 <li class="nav-item">
+                     <a href="./bar-chart.html" class="nav-link">                  
+                       <p>Bar Chart</p>                 
+                     </a>            
+                 </li> 
+     
+                 <li class="nav-item">
+                     <a href="./chart-line.html" class="nav-link">                  
+                       <p>Line Graph</p>                 
+                     </a>            
+                 </li> 
+                
+             </ul>
+     
+             <ul class="navbar-nav align-self-stretch nav-sub-items-hide nav-subItems-card" style="position: absolute; left: 20rem; transition: all 0.5s ease; width: 100%;">
+                 <li class="sidebar-header">
+                     <div class="sub-item-show btn" style="padding: 0px;">
+                         <i class="fas fa-chevron-left"></i>
+                         <p>Card</p>
+                     </div>
+                 </li>
+     
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">                
+                       <p>Card</p>
+                     </a>            
+                 </li>      
+                
+             </ul>
+     
+             <ul class="navbar-nav align-self-stretch nav-sub-items-hide nav-subItems-table" style="position: absolute; left: 20rem; transition: all 0.5s ease; width: 100%;">
+                 <li class="sidebar-header">
+                     <div class="sub-item-show btn" style="padding: 0px;">
+                         <i class="fas fa-chevron-left"></i>
+                         <p>Table</p>
+                     </div>
+                 </li>
+     
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">                
+                       <p>Standart stable</p>
+                     </a>            
+                 </li>      
+                
+             </ul>
+     
+             <ul class="navbar-nav align-self-stretch nav-sub-items-hide nav-subItems-items" style="position: absolute; left: 20rem; transition: all 0.5s ease; width: 100%;">
+                 <li class="sidebar-header">
+                     <div class="sub-item-show btn" style="padding: 0px;">
+                         <i class="fas fa-chevron-left"></i>
+                         <p>Items</p>
+                     </div>
+                 </li>
+     
+                 <li class="nav-item">
+                     <a href="#" class="nav-link nav-some" data-name="someItems">                
+                       <p>Sub Item</p>
+                       <i class="fas fa-chevron-right" style="margin-left: auto;"></i>
+                     </a>            
+                 </li>      
+                
+             </ul>
+     
+             
+     
+             <!-- end sub Item -->
+     
+     
+             <!-- some item -->
+             <ul class="navbar-nav align-self-stretch nav-sub-items-hide nav-someItems-someItems" style="position: absolute; left: -20rem; transition: all 0.5s ease; width: 100%;">
+               <li class="sidebar-header">
+                   <div class="btn some-items" style="padding: 0px;">
+                       <i class="fas fa-chevron-left"></i>
+                       <p>Sub Items</p>
+                   </div>
+               </li>
+     
+               <li class="nav-item">
+                   <a href="#" class="nav-link">                
+                     <p>Some item A</p>                
+                   </a>            
+               </li> 
+               
+               <li class="nav-item">
+                 <a href="#" class="nav-link">                
+                   <p>Some item B</p>              
+                 </a>            
+               </li> 
+     
+               <li class="nav-item">
+                 <a href="#" class="nav-link">                
+                   <p>Some item C</p>              
+                 </a>            
+               </li> 
+     
+               <li class="nav-item">
+                 <a href="#" class="nav-link">                
+                   <p>Some item D</p>            
+                 </a>            
+               </li> 
+     
+               <li class="nav-item">
+                 <a href="#" class="nav-link">                
+                   <p>Some item E</p>              
+                 </a>            
+               </li> 
+              
+           </ul>
+             <!-- end some items -->
+                     
+                 </div>
             
-            <li class="nav-item"  >
-                <a href="#" class="nav-link nav-sub" data-name="card">
-                    <i class="far fa-address-card"></i>
-                  <p class="items">
-                    Card                
-                  </p>
-                  <i class="fas fa-chevron-right"></i>
-                </a>            
-            </li>
-
-            <li class="nav-item"  >
-                <a href="#" class="nav-link nav-sub" data-name="table">
-                    <i class="far fa-address-card"></i>
-                  <p class="items">
-                    Table              
-                  </p>
-                  <i class="fas fa-chevron-right"></i>
-                </a>            
-            </li>
-
-		</ul>
-
-        <!-- end Items -->
-
-        <!-- sub Item -->
-
-        <ul class="navbar-nav align-self-stretch nav-sub-items nav-subItems-chart" style="position: absolute; left: 20rem; transition: all 0.5s ease; width: 100%;">
-            <li class="sidebar-header">
-                <div class="sub-item-show btn" style="padding: 0px;">
-                    <i class="fas fa-chevron-left"></i>
-                    <p>Chart</p>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <a href="./donut-chart.html" class="nav-link">                
-                  <p>Pie Chart</p>
-                </a>            
-            </li> 
-
-            <li class="nav-item">
-                <a href="./bar-chart.html" class="nav-link">                  
-                  <p>Bar Chart</p>                 
-                </a>            
-            </li> 
-
-            <li class="nav-item">
-                <a href="./chart-line.html" class="nav-link">                  
-                  <p>Line Graph</p>                 
-                </a>            
-            </li> 
-           
-        </ul>
-
-        <ul class="navbar-nav align-self-stretch nav-sub-items-hide nav-subItems-card" style="position: absolute; left: 20rem; transition: all 0.5s ease; width: 100%;">
-            <li class="sidebar-header">
-                <div class="sub-item-show btn" style="padding: 0px;">
-                    <i class="fas fa-chevron-left"></i>
-                    <p>Card</p>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">                
-                  <p>Card</p>
-                </a>            
-            </li>      
-           
-        </ul>
-
-        <ul class="navbar-nav align-self-stretch nav-sub-items-hide nav-subItems-table" style="position: absolute; left: 20rem; transition: all 0.5s ease; width: 100%;">
-            <li class="sidebar-header">
-                <div class="sub-item-show btn" style="padding: 0px;">
-                    <i class="fas fa-chevron-left"></i>
-                    <p>Table</p>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">                
-                  <p>Standart stable</p>
-                </a>            
-            </li>      
-           
-        </ul>
-
-        
-
-        <!-- end sub Item -->
-
-				
-			</div>
-	   
-	   
-    </nav>
+            
+         </nav>
         <!-- /#sidebar-wrapper -->
 
 

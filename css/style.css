@@ -171,20 +171,24 @@ sidebar
     padding: 0px;
 }
 
-.navbar-nav .sidebar-header .sub-item-show{
+.navbar-nav .sidebar-header .sub-item-show,
+.navbar-nav .sidebar-header .some-items{
     display: flex;
 }
 
-.navbar-nav .sidebar-header .sub-item-show i{
+.navbar-nav .sidebar-header .sub-item-show i,
+.navbar-nav .sidebar-header .some-items i{
     padding-top: 17px;
     padding-right: 15px;
 }
 
-.navbar-nav .sidebar-header .sub-item-show p{
+.navbar-nav .sidebar-header .sub-item-show p,
+.navbar-nav .sidebar-header .some-items p{
     font-weight: bold;
     padding-top: 9px;
     font-size: 20px;
 }
+
 
 
 /*---------------------------------

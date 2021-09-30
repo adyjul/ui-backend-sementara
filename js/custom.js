@@ -35,12 +35,15 @@ $(document).ready(function(){
     })
     
 
-    function dinamisValue(value){        
-        $(".nav-subItems-"+value).css("left","0px")
+    let subItem = '';
+
+    function dinamisValue(value){
+        subItem = value;        
+        $(".nav-subItems-"+subItem).css("left","0px")
         $(".nav-items").css("left","-20rem")        
 
         $(".sub-item-show").click(function(){  
-                  
+            console.log("hai")
             $(".nav-subItems-"+value).css("left","20rem")
             $(".nav-items").css("left","0px")
         })
@@ -50,6 +53,19 @@ $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip()
     })
     
-              
+    $(".nav-some").click(function(){
+        var value = $(this).attr("data-name");
+        dinamisSomeValue(value);
+    })      
+
+    function dinamisSomeValue(value){        
+        $(".nav-someItems-"+value).css("left","0px");
+        $(".nav-subItems-"+subItem).css("left","-20rem")
+
+        $(".some-items").click(function(){
+            $(".nav-someItems-"+value).css("left","-20rem");
+            $(".nav-subItems-"+subItem).css("left","0");
+        })
+    }
 
 })  
