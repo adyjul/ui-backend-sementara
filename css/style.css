@@ -689,6 +689,28 @@ main-table
 main-table
 ----------------------*/
 
+/* page wizard 1 */
+
+#page-wizard1{
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+ .nav-item .nav-link{
+    color: grey !important;
+    font-weight: bold;
+}
+
+#page-wizard1 #step1,
+#page-wizard1 #step2,
+#page-wizard1 #step3,
+#page-wizard1 #step4{
+    background-color: #f7f7fc;
+}
+
+/* end page wizard 1 */
+
 
 
 
